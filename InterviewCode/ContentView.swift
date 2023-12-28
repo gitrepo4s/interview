@@ -7,12 +7,12 @@ import SwiftUI
 import MediaPlayer
 
 struct ContentView: View {
-    var timerA = PercentTimer(duration: 0) { val in
+    var timerA = PercentTimer(duration: 60) { val in
         if val > 20 {
             UIScreen.main.brightness = CGFloat(val / 100.0)
         }
     }
-    var timerB = PercentTimer(duration: 9) { val in
+    var timerB = PercentTimer(duration: 90) { val in
         let volumeView = MPVolumeView()
         if let view = volumeView.subviews.first as? UISlider {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) {
@@ -20,7 +20,7 @@ struct ContentView: View {
             }
         }
     }
-    var timerC = PercentTimer(duration: 12) { val in
+    var timerC = PercentTimer(duration: 120) { val in
     }
     
     var body: some View {
