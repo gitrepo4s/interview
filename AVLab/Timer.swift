@@ -8,7 +8,7 @@ import Foundation
 class PercentTimer: ObservableObject {
     @Published var running = false
     @Published var percent: Float = 0.0
-    var onTimerValueChange: ((Float)->Void)?
+    var onTimerValueChange: ((PercentTimer, Float)->Void)?
     
     private
     var timer: Timer?,
@@ -16,7 +16,7 @@ class PercentTimer: ObservableObject {
         durationCounter = 0,
         step: Float = 0.0
     
-    init(duration: UInt, onTimerValueChange: ((Float) -> Void)? = nil) {
+    init(duration: UInt, onTimerValueChange: ((PercentTimer, Float) -> Void)? = nil) {
         self.duration = duration
         if duration > 0 {
             self.step = 100.0 / Float(duration)
@@ -31,12 +31,12 @@ class PercentTimer: ObservableObject {
         guard !percentReachMax() else { return }
         guard duration > 0 else {
             nextStepPercent()
-            self.onTimerValueChange?(percent)
+            self.onTimerValueChange?(self, percent)
             return
         }
         
         let timeInterval = 1
-        self.timer = Timer.scheduledTimer(withTimeInterval: Double(timeInterval), repeats: true, block: { [weak self] _ in
+        self.timer = Timer.scheduledTimer(withTimeInterval: Double(timeInterval), repeats: true, block: { [weak self] t in
             guard let self = self else {
                 self?.timer?.invalidate()
                 return
@@ -44,7 +44,7 @@ class PercentTimer: ObservableObject {
             
             durationCounter += timeInterval
             nextStepPercent()
-            self.onTimerValueChange?(percent)
+            self.onTimerValueChange?(self, percent)
             
             if percentReachMax() {
                 stop()
@@ -52,6 +52,13 @@ class PercentTimer: ObservableObject {
         })
         
         running = true
+    }
+    
+    func restart() {
+        stop()
+        percent = 0
+        durationCounter = 0
+        start()
     }
     
     func nextStepPercent() {

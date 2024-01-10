@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED489EE32B3C774B0024E1E0 /* InterviewCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED489EE22B3C774B0024E1E0 /* InterviewCodeApp.swift */; };
-		ED489EE52B3C774B0024E1E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED489EE42B3C774B0024E1E0 /* ContentView.swift */; };
-		ED489EE72B3C774C0024E1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED489EE62B3C774C0024E1E0 /* Assets.xcassets */; };
-		ED489EEA2B3C774C0024E1E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED489EE92B3C774C0024E1E0 /* Preview Assets.xcassets */; };
-		ED489EF12B3C8F8C0024E1E0 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED489EF02B3C8F8C0024E1E0 /* Timer.swift */; };
+		ED153EDF2B4E7EC2009A1176 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED153EDE2B4E7EC2009A1176 /* SafariView.swift */; };
+		ED2337A02B4E410C001595D9 /* AVLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED23379F2B4E410C001595D9 /* AVLabApp.swift */; };
+		ED2337A22B4E410C001595D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2337A12B4E410C001595D9 /* ContentView.swift */; };
+		ED2337A42B4E410D001595D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2337A32B4E410D001595D9 /* Assets.xcassets */; };
+		ED2337A72B4E410D001595D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2337A62B4E410D001595D9 /* Preview Assets.xcassets */; };
+		ED2337AE2B4E4130001595D9 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2337AD2B4E4130001595D9 /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED489EDF2B3C774B0024E1E0 /* InterviewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED489EE22B3C774B0024E1E0 /* InterviewCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewCodeApp.swift; sourceTree = "<group>"; };
-		ED489EE42B3C774B0024E1E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ED489EE62B3C774C0024E1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED489EE92B3C774C0024E1E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED489EF02B3C8F8C0024E1E0 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		ED153EDE2B4E7EC2009A1176 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		ED23379C2B4E410C001595D9 /* AVLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED23379F2B4E410C001595D9 /* AVLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLabApp.swift; sourceTree = "<group>"; };
+		ED2337A12B4E410C001595D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED2337A32B4E410D001595D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2337A62B4E410D001595D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED2337AD2B4E4130001595D9 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		ED2337AF2B4E4339001595D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED2337B22B4E6A97001595D9 /* AVLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVLab-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED489EDC2B3C774B0024E1E0 /* Frameworks */ = {
+		ED2337992B4E410C001595D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +38,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED489ED62B3C774B0024E1E0 = {
+		ED2337932B4E410C001595D9 = {
 			isa = PBXGroup;
 			children = (
-				ED489EE12B3C774B0024E1E0 /* InterviewCode */,
-				ED489EE02B3C774B0024E1E0 /* Products */,
+				ED23379E2B4E410C001595D9 /* AVLab */,
+				ED23379D2B4E410C001595D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED489EE02B3C774B0024E1E0 /* Products */ = {
+		ED23379D2B4E410C001595D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED489EDF2B3C774B0024E1E0 /* InterviewCode.app */,
+				ED23379C2B4E410C001595D9 /* AVLab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED489EE12B3C774B0024E1E0 /* InterviewCode */ = {
+		ED23379E2B4E410C001595D9 /* AVLab */ = {
 			isa = PBXGroup;
 			children = (
-				ED489EE22B3C774B0024E1E0 /* InterviewCodeApp.swift */,
-				ED489EE42B3C774B0024E1E0 /* ContentView.swift */,
-				ED489EF02B3C8F8C0024E1E0 /* Timer.swift */,
-				ED489EE62B3C774C0024E1E0 /* Assets.xcassets */,
-				ED489EE82B3C774C0024E1E0 /* Preview Content */,
+				ED2337AF2B4E4339001595D9 /* Info.plist */,
+				ED2337AD2B4E4130001595D9 /* Timer.swift */,
+				ED23379F2B4E410C001595D9 /* AVLabApp.swift */,
+				ED2337A12B4E410C001595D9 /* ContentView.swift */,
+				ED153EDE2B4E7EC2009A1176 /* SafariView.swift */,
+				ED2337A32B4E410D001595D9 /* Assets.xcassets */,
+				ED2337A52B4E410D001595D9 /* Preview Content */,
+				ED2337B22B4E6A97001595D9 /* AVLab-Bridging-Header.h */,
 			);
-			path = InterviewCode;
+			path = AVLab;
 			sourceTree = "<group>";
 		};
-		ED489EE82B3C774C0024E1E0 /* Preview Content */ = {
+		ED2337A52B4E410D001595D9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ED489EE92B3C774C0024E1E0 /* Preview Assets.xcassets */,
+				ED2337A62B4E410D001595D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +80,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED489EDE2B3C774B0024E1E0 /* InterviewCode */ = {
+		ED23379B2B4E410C001595D9 /* AVLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED489EED2B3C774C0024E1E0 /* Build configuration list for PBXNativeTarget "InterviewCode" */;
+			buildConfigurationList = ED2337AA2B4E410D001595D9 /* Build configuration list for PBXNativeTarget "AVLab" */;
 			buildPhases = (
-				ED489EDB2B3C774B0024E1E0 /* Sources */,
-				ED489EDC2B3C774B0024E1E0 /* Frameworks */,
-				ED489EDD2B3C774B0024E1E0 /* Resources */,
+				ED2337982B4E410C001595D9 /* Sources */,
+				ED2337992B4E410C001595D9 /* Frameworks */,
+				ED23379A2B4E410C001595D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = InterviewCode;
-			productName = InterviewCode;
-			productReference = ED489EDF2B3C774B0024E1E0 /* InterviewCode.app */;
+			name = AVLab;
+			productName = AVLab;
+			productReference = ED23379C2B4E410C001595D9 /* AVLab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED489ED72B3C774B0024E1E0 /* Project object */ = {
+		ED2337942B4E410C001595D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					ED489EDE2B3C774B0024E1E0 = {
+					ED23379B2B4E410C001595D9 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
-			buildConfigurationList = ED489EDA2B3C774B0024E1E0 /* Build configuration list for PBXProject "InterviewCode" */;
+			buildConfigurationList = ED2337972B4E410C001595D9 /* Build configuration list for PBXProject "AVLab" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +121,44 @@
 				en,
 				Base,
 			);
-			mainGroup = ED489ED62B3C774B0024E1E0;
-			productRefGroup = ED489EE02B3C774B0024E1E0 /* Products */;
+			mainGroup = ED2337932B4E410C001595D9;
+			productRefGroup = ED23379D2B4E410C001595D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED489EDE2B3C774B0024E1E0 /* InterviewCode */,
+				ED23379B2B4E410C001595D9 /* AVLab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED489EDD2B3C774B0024E1E0 /* Resources */ = {
+		ED23379A2B4E410C001595D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED489EEA2B3C774C0024E1E0 /* Preview Assets.xcassets in Resources */,
-				ED489EE72B3C774C0024E1E0 /* Assets.xcassets in Resources */,
+				ED2337A72B4E410D001595D9 /* Preview Assets.xcassets in Resources */,
+				ED2337A42B4E410D001595D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED489EDB2B3C774B0024E1E0 /* Sources */ = {
+		ED2337982B4E410C001595D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED489EF12B3C8F8C0024E1E0 /* Timer.swift in Sources */,
-				ED489EE52B3C774B0024E1E0 /* ContentView.swift in Sources */,
-				ED489EE32B3C774B0024E1E0 /* InterviewCodeApp.swift in Sources */,
+				ED2337AE2B4E4130001595D9 /* Timer.swift in Sources */,
+				ED153EDF2B4E7EC2009A1176 /* SafariView.swift in Sources */,
+				ED2337A22B4E410C001595D9 /* ContentView.swift in Sources */,
+				ED2337A02B4E410C001595D9 /* AVLabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ED489EEB2B3C774C0024E1E0 /* Debug */ = {
+		ED2337A82B4E410D001595D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		ED489EEC2B3C774C0024E1E0 /* Release */ = {
+		ED2337A92B4E410D001595D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,59 +277,84 @@
 			};
 			name = Release;
 		};
-		ED489EEE2B3C774C0024E1E0 /* Debug */ = {
+		ED2337AB2B4E410D001595D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InterviewCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AVLab/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q2KBC82RB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = AVLab/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use for background activity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use for background activity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ney4s.codelab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ney4s.codelab.AVLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLab/AVLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ED489EEF2B3C774C0024E1E0 /* Release */ = {
+		ED2337AC2B4E410D001595D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InterviewCode/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AVLab/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q2KBC82RB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = AVLab/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Use for background activity";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use for background activity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ney4s.codelab;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ney4s.codelab.AVLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AVLab/AVLab-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,25 +363,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED489EDA2B3C774B0024E1E0 /* Build configuration list for PBXProject "InterviewCode" */ = {
+		ED2337972B4E410C001595D9 /* Build configuration list for PBXProject "AVLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED489EEB2B3C774C0024E1E0 /* Debug */,
-				ED489EEC2B3C774C0024E1E0 /* Release */,
+				ED2337A82B4E410D001595D9 /* Debug */,
+				ED2337A92B4E410D001595D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED489EED2B3C774C0024E1E0 /* Build configuration list for PBXNativeTarget "InterviewCode" */ = {
+		ED2337AA2B4E410D001595D9 /* Build configuration list for PBXNativeTarget "AVLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED489EEE2B3C774C0024E1E0 /* Debug */,
-				ED489EEF2B3C774C0024E1E0 /* Release */,
+				ED2337AB2B4E410D001595D9 /* Debug */,
+				ED2337AC2B4E410D001595D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED489ED72B3C774B0024E1E0 /* Project object */;
+	rootObject = ED2337942B4E410C001595D9 /* Project object */;
 }
